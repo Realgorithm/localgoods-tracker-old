@@ -100,9 +100,10 @@ h6 {
   color: #008080;
 }
 .login_form {
-  background-image: url(/assets/img/company.png);
-  background-size: contain; /* This will ensure the image covers the whole element */
-  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  background-image: url(../img/company.png);
+  background-repeat: repeat-y; /* The image repeats only along the y-axis */
+  background-size: 100% auto; /* The image covers the width fully and height adjusts automatically */
+  background-position: center top; /* The image is centered horizontally and aligned at the top */
   background-color: #fff;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;

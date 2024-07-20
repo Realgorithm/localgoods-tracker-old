@@ -49,7 +49,7 @@
                                     <input type="email" name="email" id="email" class="form__input" placeholder="Email" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="img" class="form__input" style="background-color: #fff;">Shop Image</label>
+                                    <label for="img" class="form__input" style="background-color: #fff; text-align:left">Shop Image</label>
                                     <input type="file" name="img" id="img" class="form__input" hidden>
                                 </div>
                             </div>
